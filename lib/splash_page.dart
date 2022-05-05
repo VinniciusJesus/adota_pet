@@ -8,7 +8,7 @@ class SplashPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF3490dc),
+      backgroundColor: Color(0xFFa55eea),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
