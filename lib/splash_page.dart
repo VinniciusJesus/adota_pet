@@ -8,7 +8,7 @@ class SplashPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF3d3d3d),
+      backgroundColor: Color(0xFF3490dc),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -16,7 +16,7 @@ class SplashPage extends StatelessWidget {
             child: Container(
               height: Get.height * .3,
               child: Lottie.network(
-                'https://assets5.lottiefiles.com/packages/lf20_nuvl0u2v.json',
+                'https://assets10.lottiefiles.com/packages/lf20_5JFpAw.json',
               ),
             ),
           ),
