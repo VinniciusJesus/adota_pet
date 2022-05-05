@@ -20,17 +20,6 @@ class SplashPage extends StatelessWidget {
               ),
             ),
           ),
-          // SizedBox(
-          //   height: Get.height * .03,
-          // ),
-          // Text(
-          //   "Carregando...",
-          //   style: GoogleFonts.carterOne(
-          //     fontSize: 35,
-          //     color: Colors.blue,
-          //     fontWeight: FontWeight.w900,
-          //   ),
-          // )
         ],
       ),
     );
