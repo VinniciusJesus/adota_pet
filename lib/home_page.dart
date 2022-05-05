@@ -32,13 +32,14 @@ class HomePage extends StatelessWidget {
                   SizedBox(
                     width: Get.width * .45,
                     child: Text(
-                      "Adote o seu PET favorito".toUpperCase(),
-                      maxLines: 2,
+                      "Adote o seu PET favorito!!! \n".toUpperCase(),
+                      maxLines: 3,
                       style: TextStyle(
                         fontSize: 20,
                         color: Colors.white,
                         fontWeight: FontWeight.w900,
                       ),
+                      textAlign: TextAlign.center,
                     ),
                   ),
                   Expanded(
