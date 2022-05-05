@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "3146500123",
+    "project_id": "adota-pet-497e8",
+    "storage_bucket": "adota-pet-497e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3146500123:android:01f170ff6b2cca1a1f10be",
+        "android_client_info": {
+          "package_name": "com.example.adota_pet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3146500123-vlc0ol66tk7tou256jjfskh3dvtskfnf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMjgfSvhZbODqbCMBliMP9O77NmcuCKak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3146500123-vlc0ol66tk7tou256jjfskh3dvtskfnf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
