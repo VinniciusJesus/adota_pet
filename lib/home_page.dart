@@ -14,8 +14,8 @@ class HomePage extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xFFF8F3F4),
-      body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 20),
+      body: SingleChildScrollView(
+        padding: EdgeInsets.symmetric(horizontal: 20),
         child: Column(
           children: [
             SizedBox(
@@ -57,10 +57,10 @@ class HomePage extends GetView<HomeController> {
               ),
             ),
             SizedBox(
-              height: Get.height * .01,
+              height: Get.height * .02,
             ),
             Obx(() => Container(
-                  height: Get.height * 100,
+                  height: Get.height,
                   child: ListView.builder(
                     itemCount: controller.rxPetsList.length,
                     itemBuilder: (BuildContext context, int index) {
@@ -71,7 +71,7 @@ class HomePage extends GetView<HomeController> {
                             item: item,
                           ),
                           SizedBox(
-                            height: Get.height * .03,
+                            height: Get.height * .01,
                           ),
                         ],
                       );
