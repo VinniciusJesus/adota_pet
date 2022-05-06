@@ -2,6 +2,8 @@ import 'package:adota_pet/pet_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
 
+import 'home_page.dart';
+
 class HomeController extends GetxController {
   final firestoreInstance = FirebaseFirestore.instance;
   final rxPetsList = <PetModel>[].obs;
@@ -23,6 +25,9 @@ class HomeController extends GetxController {
     }
 
     rxPetsList;
+
+    await 4.delay();
+    Get.to(HomePage(), transition: Transition.cupertino);
 
     super.onInit();
   }

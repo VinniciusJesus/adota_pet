@@ -1,5 +1,5 @@
 import 'package:adota_pet/home_binding.dart';
-import 'package:adota_pet/home_page.dart';
+import 'package:adota_pet/splash_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       initialBinding: HomeBinding(),
-      home: HomePage(),
+      home: SplashPage(),
     );
   }
 }

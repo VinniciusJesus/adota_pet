@@ -20,9 +20,14 @@ class DetailsPage extends StatelessWidget {
             ),
             Row(
               children: [
-                Icon(
-                  Icons.arrow_circle_left_outlined,
-                  size: 45,
+                IconButton(
+                  icon: Icon(
+                    Icons.arrow_circle_left_outlined,
+                    size: 45,
+                  ),
+                  onPressed: () {
+                    Get.back();
+                  },
                   color: Color(0xFFa55eea),
                 ),
                 SizedBox(
